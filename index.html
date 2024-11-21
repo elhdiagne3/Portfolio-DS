@@ -1,0 +1,342 @@
+<!--index.html-->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0"> 
+    <title>My Portfolio</title> 
+    <link rel="stylesheet"
+        href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+    <!-- Navbar header section -->
+    <header class="header"> 
+        <nav class="navbar"> 
+            <div class="logo"> 
+                <h2 class="logo-heading">Elhadji D. DIAGNE</h2> 
+            </div> 
+            <div class="hamburger" id="hamburger"> 
+                <i class="fas fa-bars hamburger-icon"></i> 
+                <i class="fas fa-times cross-icon"></i> 
+            </div> 
+            <div class="menu"> 
+                <ul class="menu-list"> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#home"> 
+                            Home 
+                        </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#about"> 
+                            About 
+                        </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#services"> 
+                            Skills 
+                        </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#Projetcs"> 
+                            projects 
+                        </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#contact"> 
+                            Contact Me 
+                        </a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </nav> 
+    </header> 
+
+<!-- Main hero banner -->
+<section id="home" class="hero">
+    <div class="intro">
+        <div class="headings">
+
+            <h1 class="my-heading">Elhadji D. DIAGNE</h1>
+            <h4 class="sub-heading">Data Scientist & Fraud Risk Analyst at Orange Mali</h4>
+        </div>
+        <div class="intro-buttons">
+            <!-- "Contact Me" link wrapped in a button -->
+            <button class="btn common-btn">
+                <a href="resume/Resume_DIAGNE_DS.pdf" target="_blank" class="no-underline">Get resume</a>
+            </button>
+            <button class="btn common-btn"><a href="diagnediaraff@yahoo.fr" target="_blank" class="no-underline"></a>Contact Me</button>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="about"> 
+    <div class="about-text"> 
+        <h1 class="my-heading">About Me</h1> 
+        <p class="lead-para"> 
+            As a skilled statistician and data scientist, I excel in project 
+            coordination and managing large datasets, including Big Data. 
+            My expertise extends to overseeing data collection operations and leading teams of
+            interviewers for surveys and census projects. Proficient in various
+            data mining tools, I possess the flexibility to meet diverse technical requirements and
+            achieve project objectives effectively. With a keen eye for detail and strong analytical abilities, I specialize in synthesizing complex datasets and deriving meaningful insights. My technical
+            prowess, coupled with intellectual curiosity and rigorous approach, ensures successful execution of statistical analysis projects in dynamic environments.
+        </p> 
+    </div> 
+    <div class="about-image"> 
+        <img src="./Images/ds_image.jpg" alt="About Image"> 
+    </div> 
+</section>
+
+
+    <!-- Services Section -->
+    <section class="services" id="services"> 
+        <div class="services-heading"> 
+            <h1 class="my-heading2">Skills</h1> 
+        </div> 
+        <div class="services-content"> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fa-solid fa-chart-line"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">Statistics</h3> 
+                        <p class="small-para"> 
+                        
+                        </p> 
+                        <p class="small-para"> 
+                            <div class="tool-item"><i class="fas fa-chart-line"></i> Linear Models, Logistic Regression, Discriminant Analysis</div>
+                            <div class="tool-item"><i class="fas fa-chart-bar"></i> Inferential Statistics</div>
+                            <div class="tool-item"><i class="fas fa-th-large"></i> Multidimensional Data Analysis</div>
+                            <div class="tool-item"><i class="fas fa-calendar-alt"></i> Time Series Forecasting</div>
+                            <div class="tool-item"><i class="fas fa-chart-bar"></i> Business Intelligence </div>
+                            <div class="tool-item"><i class="fas fa-clipboard-check"></i> Hypothesis Testing & Bayesian Statistics</div></p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fa-solid fa-laptop-code"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                            Data Science & Big Data skills
+                        </h3> 
+                        <p class="small-para"> 
+                            <div class="tool-item"><i class="fas fa-brain"></i> Machine Learning</div>
+                            <div class="tool-item"><i class="fas fa-comment-dots"></i> Natural Language Processing (NLP)</div>
+                            <div class="tool-item"><i class="fas fa-bolt"></i> Big Data Technologies (Spark, PySpark)</div>
+                            <div class="tool-item"><i class="fas fa-database"></i> Database Management (SQL, NoSQL)</div>
+                            <div class="tool-item"><i class="fas fa-cogs"></i> Web Scraping</div>
+                        </p> 
+                        <p class="small-para"> 
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-terminal"> </i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">Programing skills</h3> 
+                        <p class="small-para"> 
+                            <div class="tool-list">
+                                <div class="tool-item"><i class="fas fa-database"></i> SQL</div>
+                                <div class="tool-item"><i class="fab fa-python"></i> PYTHON (Scikit-learn, Streamlit, Dash)</div>
+                                <div class="tool-item"><i class="fas fa-bolt"></i> SPARK (PySpark)</div>
+                                <div class="tool-item"><i class="fas fa-chart-area"></i> R</div>
+                                <div class="tool-item"><i class="fas fa-chart-bar"></i> SAS VIYA (Studio & Visual Analytics)</div>
+                                <div class="tool-item"><i class="fas fa-chart-line"></i> POWER BI</div>
+                                <div class="tool-item"><i class="fas fa-chart-pie"></i> Stata</div>
+                                <div class="tool-item"><i class="fas fa-file-alt"></i> Cspro</div>
+                            </div>
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+
+    <!-- Portfolio Section -->
+    <section class="services" id="services"> 
+        <div class="services-heading"> 
+            <h1 class="my-heading2">Projetcs</h1> 
+        </div> 
+        <div class="portfolio-content"> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image2"> 
+                            <img src="./Images/ds_image.jpg"
+                                >
+                        </div> 
+                        <a href="https://elhdiagne3.github.io/Portfolio/Projects/Water_Level_Predict1-checkpoint.html" target="_blank" class="no-underline">Times series forcasting</a>
+                     
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image2"> 
+                            <img src="./Images/AI_edu.jfif"
+                            >
+                    </div> 
+                       <a href="Project2_Final.html" target="_blank" class="no-underline">Education Data Analysis</a>
+                     
+                        </div>  
+                    </div> 
+                </div> 
+                <div class="my-row"> 
+                    <div class="my-col"> 
+                        <div class="my-card port-card"> 
+                            <div class="image2"> 
+                                <img src="./Images/wbs.png"
+                                >
+                        </div> 
+                        <a href="Project2_Final.html" target="_blank" class="no-underline">Web scraping</a>
+                        
+                            </div>  
+                        </div> 
+                    </div> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="./Images/contentImage2.avif"
+                                alt="Content Writting Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                            Content Writing 
+                        </h3> 
+                        <p class="small-para blue-text">Writing</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="./Images/wordpressImage2.avif"
+                                alt="Wordpress Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                            WordPress Dev 
+                        </h3> 
+                        <p class="small-para blue-text"> 
+                            Content Management System 
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="./Images/videoEditing2.avif"
+                                alt="Video Editing Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                            Video Editing 
+                        </h3> 
+                        <p class="small-para blue-text">Editing</p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+<!-- Contact Me Section -->
+<section class="contact" id="contact"> 
+    <div class="contact-heading"> 
+        <h1 class="my-heading2">Contact Me</h1> 
+    </div> 
+    <div class="contact-content"> 
+        <!-- Contact Form Container -->
+        <div class="contact-form-container"> 
+            <h1 class="greet-heading">Get In Touch</h1> 
+            <form class="contact-form"> 
+                <input class="form-controls" type="text" placeholder="Your Name"> 
+                <input class="form-controls" type="text" placeholder="Your Email"> 
+                <input class="form-controls" type="text" placeholder="Your Phone"> 
+                <textarea class="form-controls" placeholder="Write your message" name="message" id="" cols="30" rows="10"></textarea> 
+                <input class="form-btn btn common-btn" type="submit" value="Send Message"> 
+            </form> 
+        </div> 
+
+        <!-- Contact Details -->
+        <div class="contact-details"> 
+            <h1 class="greet-heading">My Contact Details</h1> 
+            <div class="details">
+                <h5 class="contact-heading"><i class="fas fa-envelope"></i> EMAIL</h5> 
+                <p class="contact-text">diagnediaraff@yahoo.fr</p> 
+            </div> 
+            <div class="details"> 
+                <h5 class="contact-heading"><i class="fas fa-phone-alt"></i> PHONE</h5> 
+                <p class="contact-text">+223 76299869</p> 
+            </div> 
+            <div class="details"> 
+                <h5 class="contact-heading"><i class="fas fa-map-marker-alt"></i> ADDRESS</h5> 
+                <p class="contact-text">Bamako, Mali</p> 
+            </div> 
+            <!-- Social Links -->
+            <div class="details"> 
+                <h5 class="contact-heading"><i class="fab fa-linkedin"></i> LinkedIn</h5> 
+                <p class="contact-text"><a href="https://www.linkedin.com/in/elhadji-diaraff-diagne" target="_blank">LinkedIn Profile</a></p>
+            </div>
+            <div class="details"> 
+                <h5 class="contact-heading"><i class="fab fa-github"></i> GitHub</h5> 
+                <p class="contact-text"><a href="https://github.com/username" target="_blank">GitHub Profile</a></p>
+            </div>
+        </div> 
+    </div> 
+</section>
+
+
+    <!-- Footer section -->
+    <footer class="footer"> 
+        <div class="footer-content text-center"> 
+            <h4> 
+                Copyright © 2024 All rights reserved
+            </h4> 
+            <div class="social-links"> 
+                <div class="footer-menu"> 
+                    <ul class="footer-menu-list"> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-facebook-f"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-twitter"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-instagram"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href=""> 
+                                <i class="fab fa-linkedin-in"></i> 
+                            </a> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </div> 
+    </footer> 
+
+    <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"> 
+    </script> 
+    <script src="script.js"></script> 
+</body> 
+
+</html>
